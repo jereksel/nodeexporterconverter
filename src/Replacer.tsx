@@ -30,7 +30,7 @@ class Replacer {
             endRegex = ""
         }
 
-        let fullRegex = RegExp(startRegex + oldValue + endRegex)
+        let fullRegex = RegExp(startRegex + oldValue + endRegex, "g")
 
         return text.replace(fullRegex, newValue)
     }

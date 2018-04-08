@@ -29,9 +29,9 @@ class NodeExporterConverter {
     node_interrupts{CPU=""},node_interrupts_total{CPU=""}
     node_intr,node_intr_total
 
-    node_memory_Active,node_memory_Active_bytes
     node_memory_Active_anon,node_memory_Active_anon_bytes
     node_memory_Active_file,node_memory_Active_file_bytes
+    node_memory_Active,node_memory_Active_bytes
     node_memory_AnonHugePages,node_memory_AnonHugePages_bytes
     node_memory_AnonPages,node_memory_AnonPages_bytes
     node_memory_Bounce,node_memory_Bounce_bytes
@@ -44,9 +44,9 @@ class NodeExporterConverter {
     node_memory_Dirty,node_memory_Dirty_bytes
     node_memory_HardwareCorrupted,node_memory_HardwareCorrupted_bytes
     node_memory_Hugepagesize,node_memory_Hugepagesize_bytes
-    node_memory_Inactive,node_memory_Inactive_bytes
     node_memory_Inactive_anon,node_memory_Inactive_anon_bytes
     node_memory_Inactive_file,node_memory_Inactive_file_bytes
+    node_memory_Inactive,node_memory_Inactive_bytes
     node_memory_KernelStack,node_memory_KernelStack_bytes
     node_memory_Mapped,node_memory_Mapped_bytes
     node_memory_MemFree,node_memory_MemFree_bytes
@@ -65,8 +65,8 @@ class NodeExporterConverter {
     node_memory_VmallocChunk,node_memory_VmallocChunk_bytes
     node_memory_VmallocTotal,node_memory_VmallocTotal_bytes
     node_memory_VmallocUsed,node_memory_VmallocUsed_bytes
-    node_memory_Writeback,node_memory_Writeback_bytes
     node_memory_WritebackTmp,node_memory_WritebackTmp_bytes
+    node_memory_Writeback,node_memory_Writeback_bytes
 
     node_network_receive_bytes{device=""},node_network_receive_bytes_total{device=""}
     node_network_receive_compressed{device=""},node_network_receive_compressed_total{device=""}
